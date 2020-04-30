@@ -60,6 +60,12 @@
             
     <li class="toctree-l2"><a href="#getting-started-with-ttbar-resonance">Getting started with ttbar resonance</a></li>
     
+        <ul>
+        
+            <li><a class="toctree-l3" href="#lepton-jet-final-state">Lepton + jet final state</a></li>
+        
+        </ul>
+    
 
     </ul>
 	    </li>
@@ -99,8 +105,12 @@
                 <h1 id="getting-started-with-ttbar-resonance">Getting started with ttbar resonance</h1>
 <p>ttbar resonance analysis searches for new physics in the top anti-top final state. top (anti-top) quark decays into a <em>W</em>  boson and a <em>b</em> quark in almost 99% cases. The <em>W</em> boson further decays <em>hadronically</em> into two quarks with around 70% probability (branching ratio). In 10% cases the <em>W</em> boson decays into a lepton and a neutrino. In the analysis, electron and muon final state is with considered. Hence the total branching ratio (Br) is around 20% (<em>leptonic</em> decay). Two major ttbar final states are:</p>
 <ul>
-<li><strong>all-hadronic</strong> (50% Br): both the top (hence the W) decays hadronically. Total six quarks in the final state form six jets.</li>
-<li><strong>semi-leptonic</strong> (30% Br): One top quark decays hadronically and the other one leptonically. Total four jets in the final state. Also known as <em>lepton + jet</em> final state.</li>
+<li>
+<p><strong>all-hadronic</strong> (50% Br): both the top (hence the W) decays hadronically. Total six quarks in the final state form six jets.</p>
+</li>
+<li>
+<p><strong>semi-leptonic</strong> (30% Br): One top quark decays hadronically and the other one leptonically. Total four jets in the final state. Also known as <em>lepton + jet</em> final state.</p>
+</li>
 </ul>
 <p>Feynman diagrams below show the two dominant ttbar process.</p>
 <p float="left">
@@ -108,6 +118,18 @@
   <img src="img/ttres_lpjet_gg.png" width="200" />
   <figcaption> Figure showing the Feynman diagram of the two dominant ttbar final states. Left: lepton + jet final state Right: all-hadronic final state. </figcaption>
 </p>
+
+<h2 id="lepton-jet-final-state">Lepton + jet final state</h2>
+<p>Top decay products can be very collimated along the top momentum or can be spread out depending on the top momentum. The two cases give rise to two top decay topology: boosted and resolved.</p>
+<ul>
+<li>
+<p><strong>Boosed topology</strong>: In boosed topology the top decay products are very close to each other. In general they are so high that the hardronic top decay products come very close (overlaps) to each other creating a large energy deposit on the calorimeter. This gets reconstructed a large radius jet (R=1.0). On the leptonic side also the decay products can come very close to each other creating an overlapping calorimeter signal for an electron and a jet.</p>
+</li>
+<li>
+<p><strong>Resolved topology</strong>: One the other hand in resolved topology, the top quark momentum is comparatively less. Hence the decay products do not overlap and are generally get reconstructed individually. </p>
+</li>
+</ul>
+<p>In the resolved topology there will be fours jets and a lepton and MET. In general in an event there are many jets (lets say &gt;4). So it is not trivial how to choose the 4 jets out of many. Currently a ChiSq based algorithm is used to reconstruct the top/anti-top systems. ML based algorithms can give us better results.</p>
               
             </div>
           </div>
