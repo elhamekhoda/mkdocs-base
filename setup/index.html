@@ -121,6 +121,17 @@
 <p>These instructions are to use primarily on flashy (atlas-t3-ubc.westgrid.ca), which only has CPUs.</p>
 <h2 id="environment-setup">Environment setup</h2>
 <p>The project will be hosted on github. So, you should have git and anaconda setup.</p>
+<h3 id="install-anaconda">Install <code>Anaconda</code></h3>
+<ul>
+<li>Copy the Anaconda3 installer from <code>/data/elham/anaconda3</code> to your home directory and install</li>
+</ul>
+<pre><code class="bash">ssh -Y USER_NAME@atlas-t3-ubc.westgrid.ca
+cp /data/elham/anaconda3
+bash Anaconda3-2020.02-Linux-x86_64.sh
+</code></pre>
+
+<p>This will install Anaconda3 with <code>python3.7</code>. The conda version will be <code>4.8.2</code>. Now we need to create an environment with the ML packages needed for the project.</p>
+<h3 id="create-top-ml-environment">Create <code>top-ml</code> environment</h3>
               
             </div>
           </div>
